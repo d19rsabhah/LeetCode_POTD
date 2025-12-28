@@ -4,7 +4,7 @@ Pick the largest remaining value first, while accounting for a cumulative global
 - 2483.This is a classic prefix–suffix.
   1. Count total 'Y' → suffixY
   2. Initialize prefixN = 0
-  3. For j = 0..n:
+  3. For j = 0 to n:
      - penalty = prefixN + suffixY
      - Track minimum penalty and earliest j
      - Update counts for next step
